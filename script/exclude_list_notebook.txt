@@ -1,0 +1,17 @@
+# Copy my directory
++ /boot/grub
++ /etc
+- /etc/fstab
++ /opt
++ /root
++ /srv
++ /tmp
++ /var
++ /home
+- /home/volokzhanin/Документы/
+- /home/volokzhanin/Загрузки/
+- /home/volokzhanin/Рабочий стол/
+- /home/volokzhanin/Видео/
+- home/volokzhanin/VirtualBox VMs/
+- /mnt/
+- /run/timeshift/

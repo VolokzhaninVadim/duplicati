@@ -8,12 +8,12 @@ services:
       - PGID=0
       - TZ=Europe/Moscow
     volumes:
-      - /mnt/backup/documents/docker/duplicati:/config
+      - /home/volokzhanin/server/repos/backup/duplicati/config_duplicati:/config
       - /mnt/s3/backup/:/backups_s3
       - /mnt/backup/:/volokzhanin_backup
       - /home/volokzhanin/:/volokzhanin_home
-    # ports:
-    #   - 8200:8200
+    ports:
+      - 8200:8200
     restart: unless-stopped
     networks:
       - default
